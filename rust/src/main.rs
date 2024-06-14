@@ -3,7 +3,7 @@ use rand::Rng;
 fn main() {
     let nome: &str = "Mansa Musa";
     let mut rng = rand::thread_rng();
-    let xp: i32 = rng.gen_range(0..10001);
+    let xp: i32 = rng.gen_range(0..=10001);
     let nvl = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
 
     let _nvl = if xp <= 1000 {

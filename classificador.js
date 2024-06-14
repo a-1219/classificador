@@ -1,5 +1,5 @@
 let nome = "Mansa Musa"
-let xp = Math.floor(Math.random()*10001)
+let xp = Math.floor(Math.random()*10002)
 let nvl = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
 if (xp <= 1000) {
